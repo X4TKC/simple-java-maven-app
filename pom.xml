@@ -6,6 +6,11 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
+  <scm>
+    <developerConnection>scm:git:https://github.com/X4TKC/simple-java-maven-app.git/</developerConnection>
+    <url>https://github.com/X4TKC/simple-java-maven-app</url>
+    <tag>HEAD</tag>
+  </scm>
   <profiles>
   <profile>
     <id>github-actions</id>
@@ -62,6 +67,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.scm.id>github</project.scm.id>
   </properties>
   <build>
     <pluginManagement>
